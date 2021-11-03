@@ -27,7 +27,7 @@ suites:
     devices:
       - id: Huawei_P30_Lite_real_us
       - name: "Huawei.*"
-        platformVersion: 10.0.0
+        platformVersion: "10"
   - name: "saucy barista - package"
     testOptions:
       package: com.saucelabs.mydemoapp.android.view.activities
