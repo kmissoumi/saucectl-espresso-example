@@ -18,9 +18,9 @@ suites:
   - name: "saucyBaristaCombo"
     devices:
       - name: "Google Pixel.*"
-      options:
-        deviceType: PHONE
-        private: false
+        options:
+          deviceType: PHONE
+          private: false
     testOptions:
       class:
         - com.example.android.testing.androidjunitrunnersample.CalculatorAddParameterizedTest
