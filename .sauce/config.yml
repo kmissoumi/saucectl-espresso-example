@@ -2,23 +2,29 @@ apiVersion: v1alpha
 kind: espresso
 sauce:
   region: us-west-1
-  # Controls how many suites are executed at the same time (sauce test env only).
+  # number of concurrent suites
   concurrency: 10
   metadata:
+    name: 007 Espresso Support
     tags:
       - e2e
-      - release team
-      - other tag
-    build: Release $CI_COMMIT_SHORT_SHA
+      - draxCorp
+      - theOtherJaws
+    build: moonraker
 espresso:
   app: ./apps/mda-1.0.10-12.apk
   testApp: ./apps/mda-androidTest-1.0.10-12.apk
 suites:
-  - name: "saucy barista on Android Emulator"
-    emulators:
-      - name: "Android GoogleAPI Emulator"
-        platformVersions:
-          - "12.0"
+  - name: "saucyBaristaCombo"
+    devices:
+      - name: "Google Pixel.*"
+        options:
+          deviceType: PHONE
+          private: false
+    testOptions:
+      class:
+        - com.example.android.testing.androidjunitrunnersample.CalculatorAddParameterizedTest
+        - com.example.android.testing.androidjunitrunnersample.CalculatorInstrumentationTest
 artifacts:
   download:
     when: always
