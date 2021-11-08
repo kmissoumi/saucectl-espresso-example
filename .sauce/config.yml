@@ -2,49 +2,29 @@ apiVersion: v1alpha
 kind: espresso
 sauce:
   region: us-west-1
-  # Controls how many suites are executed at the same time (sauce test env only).
+  # number of concurrent suites
   concurrency: 10
   metadata:
-    name: Testing Espresso Support
+    name: 007 Espresso Support
     tags:
       - e2e
-      - release team
-      - other tag
-    build: Release $CI_COMMIT_SHORT_SHA
+      - draxCorp
+      - theOtherJaws
+    build: moonraker
 espresso:
   app: ./apps/calc.apk
   testApp: ./apps/calc-success.apk
 suites:
-  - name: "saucy barista - combined"
+  - name: "saucyBaristaCombo"
+    devices:
+      - name: "Google Pixel.*"
+      options:
+        deviceType: PHONE
+        private: false
     testOptions:
       class:
         - com.example.android.testing.androidjunitrunnersample.CalculatorAddParameterizedTest
         - com.example.android.testing.androidjunitrunnersample.CalculatorInstrumentationTest
-    emulators:
-      - name: "Google Pixel C GoogleAPI Emulator"
-        orientation: landscape
-        platformVersions:
-          - "8.1"
-    devices:
-      - id: Huawei_P10_real
-      - name: "Huawei.*"
-        platformVersion: 8.0.0
-  - name: "saucy barista - package"
-    testOptions:
-      package: com.example.android.testing.androidjunitrunnersample
-    emulators:
-      - name: "Android GoogleApi Emulator"
-        platformVersions:
-          - "11.0"
-  - name: "saucy barista - test size"
-    testOptions:
-      size: small
-    emulators:
-      - name: "Android GoogleApi Emulator"
-        platformVersions:
-          - "11.0"
-
-# Controls what artifacts to fetch when the suite on Sauce Cloud has finished.
 artifacts:
   download:
     when: always
