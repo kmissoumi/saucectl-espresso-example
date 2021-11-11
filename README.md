@@ -1,6 +1,23 @@
 ## _saucectl_ Espresso
 #### _`yaml`_ and _`cli`_ Edition
 
+<br>
+<img align="right" src="assets/logo_7.png">  
+
+
+
+| :rocket: [Sign Up for a _free_ trial at Sauce Labs][3] :bangbang: |
+|:----------------------------------------------------------------- |
+| :white_check_mark: Espresso on Emulators & Devices                |
+| :white_check_mark: [Test Runner Toolkit IDE Integration][2]       |
+| :warning: [Espresso Docker Mode][1] is not supported              |
+| :page_facing_up: _`saucectl`_ [Documentation][4]                           |
+| :page_facing_up: _`saucectl`_ [CLI Reference][5]                  |
+| :page_facing_up: _`saucectl`_ [YML Reference][6]                  |
+
+&nbsp;
+
+
 ```sh
 # step 1
 # clone && cd
@@ -75,23 +92,6 @@ curl --request DELETE --silent --user ${userAuth} \
 
 
 &nbsp;
-<p></p>
-<br>
-
-
-<img style="float: right;" src="assets/logo_7.png">  
-
-
-
-| :rocket: [Sign Up for a _free_ trial at Sauce Labs][3] :bangbang: |
-|:----------------------------------------------------------------- |
-| :white_check_mark: Espresso on Emulators & Devices                |
-| :white_check_mark: [Test Runner Toolkit IDE Integration][2]       |
-| :warning: [Espresso Docker Mode][1] is not supported              |
-| :page_facing_up: _`saucectl`_ [Docs][4]                           |
-| :page_facing_up: _`saucectl`_ [CLI Reference][5]                  |
-| :page_facing_up: _`saucectl`_ [YML Reference][6]                  |
-
 
 [1]: <https://docs.saucelabs.com/testrunner-toolkit/configuration/common-syntax/#mode>
   "Test Runner Toolkit Common Syntax"
@@ -99,7 +99,7 @@ curl --request DELETE --silent --user ${userAuth} \
   "Test Runner Toolkit IDE Integration w/ Visual Studio Code"
 [3]: <https://saucelabs.com/sign-up>
   "Sauce Labs Free Trial!"
-[4]: <https://docs.saucelabs.com/testrunner-toolkit/installation>
+[4]: <https://docs.saucelabs.com/testrunner-toolkit/>
   "_saucectl_ Docs"
 [5]: <https://docs.saucelabs.com/testrunner-toolkit/saucectl/)>
   "_saucectl_ CLI Reference"
