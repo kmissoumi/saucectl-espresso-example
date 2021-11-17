@@ -30,4 +30,5 @@ artifacts:
     when: always
     match:
       - junit.xml
+      - "*.log"
     directory: ./artifacts/
