@@ -29,14 +29,15 @@ cd saucectl-espresso-example
 # curl -L https://saucelabs.github.io/saucectl/install | bash
 # brew install saucectl
 #
-# release 0.73.1
+# version   0.74.0
+# releases  https://github.com/saucelabs/saucectl/releases
+# updates   https://changelog.saucelabs.com/en?category=saucectl%20cli
 saucectl --version  
 
-# set credentials to environment variables
+# set credentials via env or dot file
 SAUCE_USERNAME=grogu
 SAUCE_ACCESS_KEY=  
 
-# set credentials to file
 saucectl configure
 
 # run test
@@ -60,7 +61,7 @@ storageApiResponse=$(curl --silent --user ${userAuth} \
 appId=$(jq -r 'select(.name == "calc.apk")|.id' <<< ${storageApiResponse})
 testAppId=$(jq -r 'select(.name == "calc-success.apk")|.id' <<< ${storageApiResponse})
 
-# we still need to have some configuration in yaml!? (╯°□°）╯︵ ┻━┻
+# we need configuration in yaml!? (╯°□°）╯︵ ┻━┻
 echo "apiVersion: v1alpha\nregion: us-west-1" > .sauce/fig.yml  
 
 
@@ -74,12 +75,13 @@ saucectl run espresso \
   --testApp storage:${testAppId} \
   --device name="Google Pixel.*",deviceType=PHONE,private=false \
   --artifacts.download.when always \
-  --artifacts.download.match junit.xml \
+  --artifacts.download.match junit.xml,"*.log" \
   --artifacts.download.directory "./artifacts" \
   --name "007 Espresso Support" \
   --build "moonraker" \
   --tags "e2e,draxCorp,theOtherJaws" \
   --verbose \
+  --disable-usage-metrics \
   --testOptions.class com.example.android.testing.androidjunitrunnersample.CalculatorAddParameterizedTest \
   --testOptions.class com.example.android.testing.androidjunitrunnersample.CalculatorInstrumentationTest  
 
