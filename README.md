@@ -18,7 +18,7 @@
 &nbsp;
 
 
-```sh
+```shell
 # step 1
 # clone && cd
 # git clone https://github.com/kmissoumi/saucectl-espresso-example
@@ -41,6 +41,7 @@ SAUCE_ACCESS_KEY=
 saucectl configure
 
 # run test
+# this will use the default configuration in ./sauce/config.yml
 # this will upload the demo and test apps to your account
 saucectl run --verbose && echo 'Go to level 2!' || echo 'STOP and send logs!'  
 
@@ -86,6 +87,7 @@ saucectl run espresso \
   --testOptions.class com.example.android.testing.androidjunitrunnersample.CalculatorInstrumentationTest  
 
 # everything in its right place?
+# delete the test apps
 # http response status codes will be written to standard out
 curl --request DELETE --silent --user ${userAuth} \
   --output /dev/null --write-out '%{http_code}\n' "${protoHost}/v1/storage/files/${appId}" \
@@ -95,15 +97,15 @@ curl --request DELETE --silent --user ${userAuth} \
 
 &nbsp;
 
-[1]: <https://docs.saucelabs.com/testrunner-toolkit/configuration/common-syntax/#mode>
+[1]: https://docs.saucelabs.com/testrunner-toolkit/configuration/common-syntax/#mode
   "Test Runner Toolkit Common Syntax"
-[2]: <https://docs.saucelabs.com/testrunner-toolkit/ide-integrations/vscode>
+[2]: https://docs.saucelabs.com/testrunner-toolkit/ide-integrations/vscode
   "Test Runner Toolkit IDE Integration w/ Visual Studio Code"
-[3]: <https://saucelabs.com/sign-up>
+[3]: https://saucelabs.com/sign-up
   "Sauce Labs Free Trial!"
-[4]: <https://docs.saucelabs.com/testrunner-toolkit/>
+[4]: https://docs.saucelabs.com/testrunner-toolkit
   "_saucectl_ Docs"
-[5]: <https://docs.saucelabs.com/testrunner-toolkit/saucectl/)>
+[5]: https://docs.saucelabs.com/testrunner-toolkit/saucectl
   "_saucectl_ CLI Reference"
-[6]: <https://docs.saucelabs.com/testrunner-toolkit/configuration/espresso/>
+[6]: https://docs.saucelabs.com/testrunner-toolkit/configuration/espresso
   "_saucectl_ YML Reference"
