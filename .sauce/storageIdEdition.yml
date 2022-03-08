@@ -12,8 +12,8 @@ sauce:
       - theOtherJaws
     build: moonraker
 espresso:
-  app: ./apps/mda-1.0.10-12.apk
-  testApp: ./apps/mda-androidTest-1.0.10-12.apk
+  app: storage:649fe25b-4827-4e15-a7ce-633f6e2cde81
+  testApp: storage:43e0d208-5c5d-4e4b-9f60-319042e5f99b 
 suites:
   - name: "saucyBaristaCombo"
     devices:
@@ -29,5 +29,6 @@ artifacts:
   download:
     when: always
     match:
-      - "*"
+      - junit.xml
+      - "*.log"
     directory: ./artifacts/

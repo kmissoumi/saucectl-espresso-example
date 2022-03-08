@@ -1,0 +1,93 @@
+{
+  "id": "eae9b7db-bc3d-411f-b6ac-f1d75475e6d0",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1642647067,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}
+{
+  "id": "d888b3c8-09d3-4253-8bba-752bbfe3778e",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1642646872,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",    x
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}
+{
+  "id": "5c2c145d-f954-4957-843d-8567ad2bd7f5",
+  " owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1637706192,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}

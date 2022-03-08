@@ -1,0 +1,527 @@
+{
+  "id": "8c2ec1e6-9c5e-4df4-8ec6-471c2c8c0836",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "twitter-ios-8.83.0-master.4-enterprise.ipa",
+  "upload_timestamp": 1642647082,
+  "etag": "3ca6834cad5ef61cd0965044279cb398",
+  "kind": "ios",
+  "group_id": 959755,
+  "description": null,
+  "metadata": {
+    "identifier": "com.twitter.dogfood.internal",
+    "name": "Earlybird",
+    "version": "8.83-Enterprise (Earlybird-release-436)",
+    "is_test_runner": false,
+    "short_version": "8.83-4-master-436",
+    "is_simulator": false,
+    "min_os": "13.4",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "14961f116aefcc2e3bceaf6bcb5005d91dea37318c2f5f60535f82993a03d321"
+}
+{
+  "id": "02b6f9da-b921-4286-8f67-15fa80f8821b",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.SauceLabs.Sample.DemoApp.ipa",
+  "upload_timestamp": 1642647073,
+  "etag": "ee1ab8ea3fe545cb17d70d3ebb9afe57",
+  "kind": "ios",
+  "group_id": 1559836,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.mydemoapp.rn",
+    "name": "My Demo App",
+    "version": "42",
+    "is_test_runner": false,
+    "short_version": "1.0.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "a88a64cc40706f51faffdfb59b97fba5e0b0152622b38a11bd8bba8fd7f66e61"
+}
+{
+  "id": "eae9b7db-bc3d-411f-b6ac-f1d75475e6d0",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1642647067,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}
+{
+  "id": "6b85edce-d69a-41c8-b3b7-d2a119cd9b58",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "twitter-ios-8.83.0-master.4-enterprise.ipa",
+  "upload_timestamp": 1642646986,
+  "etag": "3ca6834cad5ef61cd0965044279cb398",
+  "kind": "ios",
+  "group_id": 959755,
+  "description": null,
+  "metadata": {
+    "identifier": "com.twitter.dogfood.internal",
+    "name": "Earlybird",
+    "version": "8.83-Enterprise (Earlybird-release-436)",
+    "is_test_runner": false,
+    "short_version": "8.83-4-master-436",
+    "is_simulator": false,
+    "min_os": "13.4",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "14961f116aefcc2e3bceaf6bcb5005d91dea37318c2f5f60535f82993a03d321"
+}
+{
+  "id": "a39a533d-11bc-4c37-bfd5-b350b0277e07",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.SauceLabs.Sample.DemoApp.ipa",
+  "upload_timestamp": 1642646908,
+  "etag": "ee1ab8ea3fe545cb17d70d3ebb9afe57",
+  "kind": "ios",
+  "group_id": 1559836,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.mydemoapp.rn",
+    "name": "My Demo App",
+    "version": "42",
+    "is_test_runner": false,
+    "short_version": "1.0.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "a88a64cc40706f51faffdfb59b97fba5e0b0152622b38a11bd8bba8fd7f66e61"
+}
+{
+  "id": "d888b3c8-09d3-4253-8bba-752bbfe3778e",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1642646872,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}
+{
+  "id": "466d8208-df55-44b4-9a0b-5f7d85d2e307",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.7.1.ipa",
+  "upload_timestamp": 1642646790,
+  "etag": "184d1c399251e8849edcb0adfc079571",
+  "kind": "ios",
+  "group_id": 985069,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "12",
+    "is_test_runner": false,
+    "short_version": "2.7.1",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "14.2",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "a03cdd61517f491967fcced9f81659bf12ffc96f9081d872c5f4cb2d6420bc17"
+}
+{
+  "id": "9c99594c-c60d-45f7-aa2b-1c21f5cfc59e",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.4.0.ipa",
+  "upload_timestamp": 1642646780,
+  "etag": "7346daedd81e0160242dbd7073590796",
+  "kind": "ios",
+  "group_id": 2875030,
+  "description": null,
+  "metadata": {
+    "identifier": "org.reactjs.native.example.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "6",
+    "is_test_runner": false,
+    "short_version": "2.4.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "13.7",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "0db330a2da773589c92a2e4e38acee65d3a46abc529e7cfe06daaa87e6e78b4e"
+}
+{
+  "id": "c079ad24-8fa5-4803-a2ea-286ec462b293",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.4.0.ipa",
+  "upload_timestamp": 1642646769,
+  "etag": "7346daedd81e0160242dbd7073590796",
+  "kind": "ios",
+  "group_id": 2875030,
+  "description": null,
+  "metadata": {
+    "identifier": "org.reactjs.native.example.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "6",
+    "is_test_runner": false,
+    "short_version": "2.4.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "13.7",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "0db330a2da773589c92a2e4e38acee65d3a46abc529e7cfe06daaa87e6e78b4e"
+}
+{
+  "id": "579436ce-8af1-43ce-b1b1-6ab93b8a3c6f",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.5.0.ipa",
+  "upload_timestamp": 1642646724,
+  "etag": "e96025056065d3f670608aa673799b06",
+  "kind": "ios",
+  "group_id": 2875030,
+  "description": null,
+  "metadata": {
+    "identifier": "org.reactjs.native.example.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "9",
+    "is_test_runner": false,
+    "short_version": "2.5.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "13.7",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "cc262d88f973175766ce352ed157daa9201edab03a775bb07a4900215537b163"
+}
+{
+  "id": "88cc2b59-27ad-470e-9203-c723f96c6021",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.2.0.ipa",
+  "upload_timestamp": 1642646705,
+  "etag": "984f8b82901670cc7593a6e69476f041",
+  "kind": "ios",
+  "group_id": 2875030,
+  "description": null,
+  "metadata": {
+    "identifier": "org.reactjs.native.example.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "8",
+    "is_test_runner": false,
+    "short_version": "2.2.0",
+    "is_simulator": false,
+    "min_os": "9.0",
+    "target_os": "12.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "f673f33665c73e780b8ac57b3bf38bd6adb2523b0249bdd49846017738144716"
+}
+{
+  "id": "305a3882-c445-4bd3-9b83-39e88c278d74",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.RealDevice.SauceLabs.Mobile.Sample.app.2.2.0.ipa",
+  "upload_timestamp": 1642646641,
+  "etag": "984f8b82901670cc7593a6e69476f041",
+  "kind": "ios",
+  "group_id": 2875030,
+  "description": null,
+  "metadata": {
+    "identifier": "org.reactjs.native.example.SwagLabsMobileApp",
+    "name": "SwagLabsMobileApp",
+    "version": "8",
+    "is_test_runner": false,
+    "short_version": "2.2.0",
+    "is_simulator": false,
+    "min_os": "9.0",
+    "target_os": "12.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "f673f33665c73e780b8ac57b3bf38bd6adb2523b0249bdd49846017738144716"
+}
+{
+  "id": "2394784a-a59f-4532-9ab2-2844f29cae04",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "MyDemoAppUITests-Runner.ipa",
+  "upload_timestamp": 1642082718,
+  "etag": "51bd3f65d8396751a012b50ac87bc8a9",
+  "kind": "ios",
+  "group_id": 2793214,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.mydemoapp.ios.My-Demo-AppUITests.xctrunner",
+    "name": "MyDemoAppUITests-Runner",
+    "version": "1",
+    "is_test_runner": true,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "9.0",
+    "target_os": "15.0",
+    "test_runner_plugin_path": "PlugIns/MyDemoAppUITests.xctest"
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "32bdf1927f98b4d7fcaa0b1ae9283e39b5385897ad9f6e8e727eed79364f78b2"
+}
+{
+  "id": "a1363673-673c-4678-b89e-f2403ea57b6f",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "MyDemoApp.ipa",
+  "upload_timestamp": 1642082717,
+  "etag": "52b9db27607aa6c97023f31a8afa7294",
+  "kind": "ios",
+  "group_id": 2793211,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.mydemoapp.ios",
+    "name": "My Demo App",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.1.0",
+    "is_simulator": false,
+    "min_os": "14.3",
+    "target_os": "15.0",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "3dfbc577443a80cde2088aafe80e2f569caa431b98071e94bf73225aa9909040"
+}
+{
+  "id": "2bc4e051-aba5-4324-bc84-4a302ed1fd0a",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "iOS.SauceLabs.Sample.DemoApp.ipa",
+  "upload_timestamp": 1637706202,
+  "etag": "ee1ab8ea3fe545cb17d70d3ebb9afe57",
+  "kind": "ios",
+  "group_id": 1559836,
+  "description": null,
+  "metadata": {
+    "identifier": "com.saucelabs.mydemoapp.rn",
+    "name": "My Demo App",
+    "version": "42",
+    "is_test_runner": false,
+    "short_version": "1.0.0",
+    "is_simulator": false,
+    "min_os": "10.0",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "a88a64cc40706f51faffdfb59b97fba5e0b0152622b38a11bd8bba8fd7f66e61"
+}
+{
+  "id": "f55aaba3-f5bb-4247-a8e2-1f88503e471f",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "twitter-ios-8.83.0-master.4-enterprise.ipa",
+  "upload_timestamp": 1637706197,
+  "etag": "3ca6834cad5ef61cd0965044279cb398",
+  "kind": "ios",
+  "group_id": 959755,
+  "description": null,
+  "metadata": {
+    "identifier": "com.twitter.dogfood.internal",
+    "name": "Earlybird",
+    "version": "8.83-Enterprise (Earlybird-release-436)",
+    "is_test_runner": false,
+    "short_version": "8.83-4-master-436",
+    "is_simulator": false,
+    "min_os": "13.4",
+    "target_os": "14.5",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "14961f116aefcc2e3bceaf6bcb5005d91dea37318c2f5f60535f82993a03d321"
+}
+{
+  "id": "5c2c145d-f954-4957-843d-8567ad2bd7f5",
+  "owner": {
+    "id": "f3e9d5eee4b049fbb713dd3b7d6d6aba",
+    "org_id": "c3a220495928436a8bd31b486980bae4"
+  },
+  "name": "Calculator.ipa",
+  "upload_timestamp": 1637706192,
+  "etag": "d2ab03bb6afadda77e8b68901e563714",
+  "kind": "ios",
+  "group_id": 1559827,
+  "description": null,
+  "metadata": {
+    "identifier": "com.palewar.Calculator",
+    "name": "Calculator",
+    "version": "1",
+    "is_test_runner": false,
+    "short_version": "1.0",
+    "is_simulator": false,
+    "min_os": "8.1",
+    "target_os": "8.4",
+    "test_runner_plugin_path": null
+  },
+  "access": {
+    "team_ids": [
+      "2ee4ec6057374e9484ad3341f5971d0f"
+    ],
+    "org_ids": []
+  },
+  "sha256": "9c85bf6fc37739dc2aa378ee56f3a1b17eda5738563eed670b93e6cbf9fe3b0c"
+}
